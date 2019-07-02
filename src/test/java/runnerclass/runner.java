@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		glue="stepdef",
 		//plugin="html:target/html-reports",
 		//plugin="junit:target/xmlreport.xml")
-		 plugin="json:target/json-report")
+		 plugin="json:target/json-report.json")
 		
 //tags={"@smoke"})
 		
