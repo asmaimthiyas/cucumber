@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features={"src/test/resources/cucum2.feature"},
 		glue="stepdef",
 		//plugin="html:target/html-reports",
-		plugin="junit:target/xmlreport.xml")
+		//plugin="junit:target/xmlreport.xml")
+		 plugin="json:target/json-report")
 		
 //tags={"@smoke"})
 		
